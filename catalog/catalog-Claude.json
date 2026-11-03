@@ -1,0 +1,654 @@
+{
+  "about": "Piano house kits: syncopated piano stabs, offbeat bass, four-on-the-floor drums and seventh and ninth chords at 120 to 126 BPM.",
+  "catalog_address": "https://mizcausevic-dev.github.io/piano-house/",
+  "counts": {
+    "arrangements": 4,
+    "kits": 4,
+    "midi_files": 52,
+    "part_files": 48
+  },
+  "film": {
+    "captions": "film/preview.vtt",
+    "duration": 30.967007,
+    "path": "film/preview.mp4",
+    "poster": "film/poster.jpg"
+  },
+  "format": {
+    "arrangement_bars": 32,
+    "arrangement_format": 1,
+    "channels": {
+      "bass": 1,
+      "drums": 10,
+      "keys": 2,
+      "motif": 3,
+      "pad": 5,
+      "sequence": 4
+    },
+    "part_bars": 8,
+    "part_format": 0,
+    "ppq": 960,
+    "ranges": {
+      "bass": [
+        38,
+        57
+      ],
+      "keys": [
+        48,
+        76
+      ],
+      "motif": [
+        60,
+        86
+      ],
+      "pad": [
+        48,
+        81
+      ],
+      "sequence": [
+        52,
+        81
+      ]
+    },
+    "time_signature": "4/4"
+  },
+  "kits": [
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Floor Seven arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k01-floor-seven/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "2d79cc1e17d29a9d55695a72e9b3786cb548194eb51120e3133af5b65193b13f"
+      },
+      "bpm": 124,
+      "id": "k01",
+      "key": "A",
+      "mode": "aeolian",
+      "name": "Floor Seven",
+      "parts": [
+        {
+          "notes": 148,
+          "path": "midi/k01-floor-seven/drums-a.mid",
+          "role": "drums",
+          "sha256": "8ede3fe06d43d44c5313affd30bb8f11ffcfda6380e33fa6c38149590ae8754c",
+          "variation": "a"
+        },
+        {
+          "notes": 173,
+          "path": "midi/k01-floor-seven/drums-b.mid",
+          "role": "drums",
+          "sha256": "ec4157c356efaaed004583aa47e226f8c1b4dd50eda212a67cc8870730e12216",
+          "variation": "b"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k01-floor-seven/bass-a.mid",
+          "role": "bass",
+          "sha256": "7724dd2434615226851f6179f17488f0672571e1d5decb67e2e6e142c05d9c43",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k01-floor-seven/bass-b.mid",
+          "role": "bass",
+          "sha256": "e35d3670f3e3864685770727b1aae5e647a9b18d0fcc9082dc760da20d56f231",
+          "variation": "b"
+        },
+        {
+          "notes": 160,
+          "path": "midi/k01-floor-seven/keys-a.mid",
+          "role": "keys",
+          "sha256": "fb178f84da9f8a010a42612a941fc68cd4704d1c99b85d5ba91e4363a961ca64",
+          "variation": "a"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k01-floor-seven/keys-b.mid",
+          "role": "keys",
+          "sha256": "afd26c9944f3bf6da04277ea06615c36371e8700f41dc02bffbc00fc3865dfcf",
+          "variation": "b"
+        },
+        {
+          "notes": 36,
+          "path": "midi/k01-floor-seven/motif-a.mid",
+          "role": "motif",
+          "sha256": "d8e7cc5f5c046ebb67c3a124412b72e7e5473edcddf76f3622372db875c5cd57",
+          "variation": "a"
+        },
+        {
+          "notes": 35,
+          "path": "midi/k01-floor-seven/motif-b.mid",
+          "role": "motif",
+          "sha256": "4b1f89da2f6813240405a583377da596b97472127188c22a5564dd8ff3702ff0",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k01-floor-seven/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "23a4c1ebefd5f8d36c5cb5b33b6c749f86ec9f9c2cd0a06016a141ad09a1d433",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k01-floor-seven/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "98821e47fe43c1f5153156eb4b9a398d79cf8de260f5ae2526f379536cf43331",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k01-floor-seven/pad-a.mid",
+          "role": "pad",
+          "sha256": "4eea514b7bcf3adfdfd493a701a846280f4e4b153d41d6bad5e3ba0161f5d2a8",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k01-floor-seven/pad-b.mid",
+          "role": "pad",
+          "sha256": "b11e0778780ae01a08ccd260501ae9cfc2ea8e374ba18a68c29b1e97ae50c267",
+          "variation": "b"
+        }
+      ],
+      "progression": "Am7 (2 bars) | Dm7 (2 bars) | G7 (2 bars) | Cmaj7 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Brass Lamp arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k02-brass-lamp/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "9287ce6de94eda6a7924230b217e0b3159589b4056aa0fb321f6ef489805173d"
+      },
+      "bpm": 122,
+      "id": "k02",
+      "key": "F",
+      "mode": "dorian",
+      "name": "Brass Lamp",
+      "parts": [
+        {
+          "notes": 148,
+          "path": "midi/k02-brass-lamp/drums-a.mid",
+          "role": "drums",
+          "sha256": "9e1798ca698dcbdb13dd2602a5a2dc7ad117a3a57f3414413f53a716ddf30263",
+          "variation": "a"
+        },
+        {
+          "notes": 173,
+          "path": "midi/k02-brass-lamp/drums-b.mid",
+          "role": "drums",
+          "sha256": "fe5165db32f8ccf4fded3deed0d424412a500d7ad3f1acc2682a0342e6037a71",
+          "variation": "b"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k02-brass-lamp/bass-a.mid",
+          "role": "bass",
+          "sha256": "eeac706ea60689c84751ef50a7286831902d3af42570e5fda56b59a9b6d97f92",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k02-brass-lamp/bass-b.mid",
+          "role": "bass",
+          "sha256": "e348026aa2c36aace3d0b519c8656497206e9285a40ed6d6a90c49cf602bffde",
+          "variation": "b"
+        },
+        {
+          "notes": 160,
+          "path": "midi/k02-brass-lamp/keys-a.mid",
+          "role": "keys",
+          "sha256": "7f731c8f371a4e9bdf5fa29b5fbccd374f6e7cd9f89e4fd9d8d2331408376d99",
+          "variation": "a"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k02-brass-lamp/keys-b.mid",
+          "role": "keys",
+          "sha256": "210b04c912cebd5a5475c85012aa640f16d2ec8a199455533abe607189f2c278",
+          "variation": "b"
+        },
+        {
+          "notes": 34,
+          "path": "midi/k02-brass-lamp/motif-a.mid",
+          "role": "motif",
+          "sha256": "e4ea997b022d8298d5f9ca59b5f4ef40d8a907015c6c85ff2773760a137208e6",
+          "variation": "a"
+        },
+        {
+          "notes": 37,
+          "path": "midi/k02-brass-lamp/motif-b.mid",
+          "role": "motif",
+          "sha256": "4b24131581c6756f86bf80de3715e08933e23d821a00f68dee928b897b5b27b4",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k02-brass-lamp/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "d0f29838ade00c97dd76ed5ece0e8a81373be24e9fed42dc2ca9123e31b33c84",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k02-brass-lamp/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "9bbbbe94c9d9c2b24ad71ee802fd7eb48b8803cbb255e4a978101a32a3ce58cb",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k02-brass-lamp/pad-a.mid",
+          "role": "pad",
+          "sha256": "1a3b24d19411a4f665c02371554c4d12aa14372be9c9a164981d98690a8ea824",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k02-brass-lamp/pad-b.mid",
+          "role": "pad",
+          "sha256": "21cc16bb27682e54d7051682267285a728c116fac9b4026952c7a12c7047cc72",
+          "variation": "b"
+        }
+      ],
+      "progression": "Fm9 (2 bars) | Bb9 (2 bars) | Ebmaj7 (2 bars) | C7 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Late Lift arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k03-late-lift/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "21f656c72b35a516eabeb46becaedd7ad1ee199a629717f7ab6e7bd2f3ec1b2e"
+      },
+      "bpm": 126,
+      "id": "k03",
+      "key": "C",
+      "mode": "ionian",
+      "name": "Late Lift",
+      "parts": [
+        {
+          "notes": 148,
+          "path": "midi/k03-late-lift/drums-a.mid",
+          "role": "drums",
+          "sha256": "1045b7b170a1788ca7679ebeb9963bf40efa1484994ae74b560b64d63ff80e62",
+          "variation": "a"
+        },
+        {
+          "notes": 173,
+          "path": "midi/k03-late-lift/drums-b.mid",
+          "role": "drums",
+          "sha256": "b9f7a9188de83d3f566199cc11818d3e25e0330bb218008cf1594b473e03526c",
+          "variation": "b"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k03-late-lift/bass-a.mid",
+          "role": "bass",
+          "sha256": "d5d4f5718729f83209f94299ea4c61874b06e4004255cee88ee7a83899219796",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k03-late-lift/bass-b.mid",
+          "role": "bass",
+          "sha256": "426a2ffa74a3cdad5d1a8d219cb4b399d365d4f5820d11e14e525689ce81d578",
+          "variation": "b"
+        },
+        {
+          "notes": 160,
+          "path": "midi/k03-late-lift/keys-a.mid",
+          "role": "keys",
+          "sha256": "f02f1937768cfbad51ab64670f05997692b5657828ef82ebf3247e0a1de45655",
+          "variation": "a"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k03-late-lift/keys-b.mid",
+          "role": "keys",
+          "sha256": "ea38698705f8c1b5633dd016b0dd39c5acb7634a7a2e5538a24a4c31c81705f4",
+          "variation": "b"
+        },
+        {
+          "notes": 35,
+          "path": "midi/k03-late-lift/motif-a.mid",
+          "role": "motif",
+          "sha256": "92fd9ade2514647561f013432c4a6ade2c42c35be8a7be43cf8bd7d6b3dd7324",
+          "variation": "a"
+        },
+        {
+          "notes": 37,
+          "path": "midi/k03-late-lift/motif-b.mid",
+          "role": "motif",
+          "sha256": "fe6ad83f2711d36dff1c42f9e6327e3d2943c56307fcdda9d15b6a04a7112802",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k03-late-lift/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "b183e36c5cf24a6439c818dbc998db88db1c72d489bfb9322d2455e9143e5804",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k03-late-lift/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "9432cce6ec363ba05f1fc3bacc4226f0c043ea6354730c01645c7cfa3b1185cc",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k03-late-lift/pad-a.mid",
+          "role": "pad",
+          "sha256": "4428c36bec2b0a3d9336b758900ca82c14437f3628271498ed150851b340fb7b",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k03-late-lift/pad-b.mid",
+          "role": "pad",
+          "sha256": "b6ef0376864ef9a59b567c09f66c77a25fc898bc43033c3b649819764ec2c321",
+          "variation": "b"
+        }
+      ],
+      "progression": "Cmaj7 (2 bars) | Em7 (2 bars) | Fmaj7 (2 bars) | G7 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Riverside arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k04-riverside/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "d57f32ae98846d4e69c2242ee7955a54d7046936f51df33caf6694fecef3acdd"
+      },
+      "bpm": 120,
+      "id": "k04",
+      "key": "E",
+      "mode": "aeolian",
+      "name": "Riverside",
+      "parts": [
+        {
+          "notes": 148,
+          "path": "midi/k04-riverside/drums-a.mid",
+          "role": "drums",
+          "sha256": "d6b74d5a218735a71a95013c70bd8fdbba747d5fc4a8a7670468e17941ba4cb7",
+          "variation": "a"
+        },
+        {
+          "notes": 173,
+          "path": "midi/k04-riverside/drums-b.mid",
+          "role": "drums",
+          "sha256": "5e5a29a1a0fcdfdf4ab5bc5446b6be8e262f92039d1698de16e2932ab2825946",
+          "variation": "b"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k04-riverside/bass-a.mid",
+          "role": "bass",
+          "sha256": "05c73bb5b662783edfbf2406e7fb4ebb3e7ceef6b0d142c0d0b3dfdf5f62766f",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k04-riverside/bass-b.mid",
+          "role": "bass",
+          "sha256": "e3fbf0a32e29286097c2df1630581a6bfe3324ce879dff531cb2aa67a9d9faa2",
+          "variation": "b"
+        },
+        {
+          "notes": 160,
+          "path": "midi/k04-riverside/keys-a.mid",
+          "role": "keys",
+          "sha256": "8fd4c8b4b68a199660c2ee4575af7e3e1d4068ed5876b64357c86c94e3b12e20",
+          "variation": "a"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k04-riverside/keys-b.mid",
+          "role": "keys",
+          "sha256": "2e6a9b17702c4abdaa83eefb1ed0cd85c75ce9dad9edbc34aa168be36e3ee479",
+          "variation": "b"
+        },
+        {
+          "notes": 29,
+          "path": "midi/k04-riverside/motif-a.mid",
+          "role": "motif",
+          "sha256": "fd4a5580cf7c06a88b4c6f7d398fd1b60fa3b7fbf0a38608e9245475cf14a74b",
+          "variation": "a"
+        },
+        {
+          "notes": 37,
+          "path": "midi/k04-riverside/motif-b.mid",
+          "role": "motif",
+          "sha256": "309799d19bd6ad9f3d26ce2d9befebceee2cebd3ffcf16fdec7d12ea7825610e",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k04-riverside/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "769e59d92d24371502937aa13a562d52a93161361e7d762054b63850cf372945",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k04-riverside/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "7890e9dfd5161909f563c32f5f2ffe7eaef31dcc4b9f981bbcead98692e73eb5",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k04-riverside/pad-a.mid",
+          "role": "pad",
+          "sha256": "01aba6d5a11203a0ea6c496b6f97f20af6c044f1e4faf6fefb676e4958b90bb5",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k04-riverside/pad-b.mid",
+          "role": "pad",
+          "sha256": "65458198553fe49c1cb48cea9e114b93d6ecead4b5167fc33e6832abf7975a26",
+          "variation": "b"
+        }
+      ],
+      "progression": "Em9 (2 bars) | Am9 (2 bars) | D9 (2 bars) | Gmaj7 (2 bars)"
+    }
+  ],
+  "pack": "piano-house",
+  "preview": {
+    "bar_first": 17,
+    "bar_last": 32,
+    "bpm": 124,
+    "duration": 31.007347,
+    "kit_id": "k01",
+    "manifest": "preview/preview-manifest-Claude.txt",
+    "path": "preview/preview.mp3",
+    "sha256": "9eec908605bf35fcda520863eefacb90ecdd0c061162daf4ef8301592cf67020"
+  },
+  "repository": "https://github.com/mizcausevic-dev/piano-house",
+  "statements": {
+    "audition": "No human listening audition was performed for this build.",
+    "license": "No license is set.",
+    "on_picture": "preview, not master",
+    "preview": "preview, not a master",
+    "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+    "publication": "The GitHub repository is https://github.com/mizcausevic-dev/piano-house and it is public. The catalog address is https://mizcausevic-dev.github.io/piano-house/ . Treat that address as live only after it responds.",
+    "warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file."
+  },
+  "tags": [
+    "midi",
+    "piano-house",
+    "house",
+    "dance",
+    "music-production"
+  ],
+  "title": "Piano House",
+  "validation": "midi/validation-Claude.json"
+}

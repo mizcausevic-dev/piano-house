@@ -1,0 +1,56 @@
+preview, not a master
+{
+  "arrangement_path": "midi/k01-floor-seven/arrangement.mid",
+  "arrangement_sha256": "2d79cc1e17d29a9d55695a72e9b3786cb548194eb51120e3133af5b65193b13f",
+  "encode": "libmp3lame CBR 192 kbps, stereo, from a 44.1 kHz 16-bit WAV",
+  "excerpt": {
+    "bar_count": 16,
+    "bars": "17-32",
+    "bpm": 124,
+    "end_tick": 122880,
+    "kit": "k01",
+    "sequencing": "Every placed part of the arrangement in that window, from the arrangement file as written.",
+    "start_tick": 61440,
+    "title": "Floor Seven",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "b3f5c9bcfb577c940d3a7508cc466303f8265c3d34f51aebc70b678fed34bf93",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "bass": "Band-limited saw or sine at the written pitch, held for the written duration. It stands in for a bass instrument. It is not a bass sample.",
+    "drums": "Bass drum is a falling sine, snare and clap are noise bursts, hats and crash are filtered noise. The MIDI pitch selects the voice. No controller is read.",
+    "keys": "Additive sine tones at the written pitches with a decaying envelope. It stands in for the keys. It is not an instrument sample.",
+    "motif": "A single oscillator voice with a slow attack, at the written pitch, plus a send to a simple noise reverb.",
+    "pad": "Three detuned saw oscillators through a low-pass filter with a slow attack, plus a reverb send.",
+    "sequence": "A short plucked voice at the written pitch with a send to the same reverb."
+  },
+  "mp3_duration_seconds": 31.007347,
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-loglevel",
+    "error",
+    "-i",
+    "build/preview.wav",
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "preview/preview.mp3"
+  ],
+  "mp3_sha256": "9eec908605bf35fcda520863eefacb90ecdd0c061162daf4ef8301592cf67020",
+  "sample_peak_linear": 0.4369,
+  "synth": "claude-simple-synth-1.0.0",
+  "timbre": {
+    "bass": "saw",
+    "keys": "piano",
+    "kick": "909",
+    "motif": "piano",
+    "pad": "pad",
+    "seq": "pluck",
+    "verb": 0.26
+  }
+}
